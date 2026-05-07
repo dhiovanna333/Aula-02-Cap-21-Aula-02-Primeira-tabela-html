@@ -10,7 +10,7 @@
         table {
             width: 100%;
             max-width: 800px;
-            border-collapse: collapse;
+            border-collapse: collapse; /* Une as bordas em uma linha única */
         }
 
         thead tr {
@@ -20,6 +20,7 @@
         th, td {
             padding: 15px;
             text-align: left;
+            border: 1px solid #ccc; /* Adiciona a linha (borda) cinza */
         }
 
         th:first-child {
@@ -37,7 +38,7 @@
 </head>
 <body>
 
-    <h1>Exemplo esperado de saída (sem CSS)</h1>
+    <h1>Exemplo esperados de saída  (sem CSS) </h1>
 
     <table>
         <thead>
@@ -72,4 +73,3 @@
 
 </body>
 </html>
-
